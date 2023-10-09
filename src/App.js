@@ -2,15 +2,15 @@ import "./styles.css"
 
 import { useState } from "react"
 
-import  background  from "../assets/background.png"
+import  background  from "./assets/background.png"
 
-import { Header }  from "../Components/Header"
+import { Header }  from "./Components/Header"
 
-import ItemList  from "../Components/ItemList"
+import ItemList  from "./Components/ItemList"
 
 
 
-const Pages = () => {
+const App = () => {
   
   const [user, setUser] = useState('')
   const [currentUser, setcurrentUser] = useState(null);
@@ -94,4 +94,4 @@ const Pages = () => {
 }
 
 
-export default Pages;
+export default App;
